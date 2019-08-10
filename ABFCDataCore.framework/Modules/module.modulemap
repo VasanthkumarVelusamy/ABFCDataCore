@@ -1,0 +1,11 @@
+framework module ABFCDataCore {
+  umbrella header "ABFCDataCore.h"
+
+  export *
+  module * { export * }
+}
+
+module ABFCDataCore.Swift {
+    header "ABFCDataCore-Swift.h"
+    requires objc
+}
